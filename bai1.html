@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+</head>
+
+<body>
+    <h3>Bảng cửu chương</h3>
+    <table align="center" border="1">
+        <script>
+            for (var dong = 1; dong <= 10; dong++) {
+                document.write('<tr>')
+                for (var cot = 1; cot <= 10; cot++) {
+                    document.write('<td>')
+                    document.write(cot + 'x' + dong + '=' + cot * dong)
+                    document.write("</td>")
+                }
+                document.write('</tr>')
+            }
+        </script>
+    </table>
+</body>
+
+</html>
